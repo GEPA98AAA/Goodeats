@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root{
+--naranja:#ff4816;
+--cafe:#8a470a;
+--azul:#182A41;
+	
+	
+}
+
+.panel-left{
+	background-color:var(--azul);
+	color: #fff;
+}
+.img-cropper{
+	 width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.circ{
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+.card-content{
+	text-align: center;
+	background-color: var(--azul);
+	color: #fff;
+}
+.categorias{
+	background-color: var(--azul);
+}
+.navbar-inner{
+	 padding-top: 30px;
+	padding-bottom: 30px;
+}
+.bg-orange{
+background-color: var(--naranja);
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.bg-orange .block h2{
+	color: #fff;
+	font-size: 50px;
+}
+.flecha{
+	color: var(--azul);
+}
+.imagen{
+	border-radius: 50%;
+}
+.boton-compra{
+	border-radius: 50px;
+	border: 2px solid white;
+	padding: 10px 20px;
+	background-color: var(--naranja) !important;
+	margin-top: 115%; 
+}
+.boton-compra .card-content{
+	background-color: var(--naranja) !important;
+	padding: 0px 2px;
+}
+.ingredientes{
+	background-color: var(--azul);
+	color:white;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.azul{
+	background-color: var(--azul);
+	border: 2px solid var(--naranja);
+	border-radius: 30px;
+	padding: 10px 90px;
+}
+.azul .card-content{
+	padding: 10px;
+}
